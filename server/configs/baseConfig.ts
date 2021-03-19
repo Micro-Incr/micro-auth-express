@@ -1,0 +1,12 @@
+export const PORT = process.env.PORT || 3000;
+export const JWT_SECRET = process.env.JWT_SECRET;
+export const SERVER_URL = process.env.SERVER_URL;
+export const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:3000';
+export const DB_ENTITIES = process.env.DB_ENTITIES;
+export const DB_MIGRATIONS = process.env.DB_MIGRATIONS;
+export const DB_SUBSCRIBERS = process.env.DB_SUBSCRIBERS;
+export const DIR_ENTITIES = process.env.DIR_ENTITIES;
+export const DIR_MIGRATIONS = process.env.DIR_MIGRATIONS;
+export const DIR_SUBSCRIBERS = process.env.DIR_SUBSCRIBERS;
+export const NODEMAILER_EMAIL = process.env.NODEMAILER_EMAIL;
+export const NODEMAILER_PASSWORD = process.env.NODEMAILER_PASSWORD;
